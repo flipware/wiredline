@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "96469a22de7c1b3d54885da74c189d90"
+build_time: [528122656, 407150000]
+inputs:
+  "/Users/flip/Dropbox/works/C/obj-c/\u958B\u767A\u4E2D/\u4E00\u6642\u30D5\u30A1\u30A4\u30EB/wiredline/wiredline WatchKit Extension/watchUserlistController.swift": [9223372036854775807, 0]
+  "/Users/flip/Dropbox/works/C/obj-c/\u958B\u767A\u4E2D/\u4E00\u6642\u30D5\u30A1\u30A4\u30EB/wiredline/wiredline WatchKit Extension/NotificationController.swift": [9223372036854775807, 0]
+  "/Users/flip/Dropbox/works/C/obj-c/\u958B\u767A\u4E2D/\u4E00\u6642\u30D5\u30A1\u30A4\u30EB/wiredline/wiredline WatchKit Extension/ComplicationController.swift": [9223372036854775807, 0]
+  "/Users/flip/Dropbox/works/C/obj-c/\u958B\u767A\u4E2D/\u4E00\u6642\u30D5\u30A1\u30A4\u30EB/wiredline/wiredline WatchKit Extension/ExtensionDelegate.swift": [9223372036854775807, 0]
+  "/Users/flip/Dropbox/works/C/obj-c/\u958B\u767A\u4E2D/\u4E00\u6642\u30D5\u30A1\u30A4\u30EB/wiredline/wiredline WatchKit Extension/watchUserlist.swift": [9223372036854775807, 0]
+  "/Users/flip/Dropbox/works/C/obj-c/\u958B\u767A\u4E2D/\u4E00\u6642\u30D5\u30A1\u30A4\u30EB/wiredline/wiredline WatchKit Extension/InterfaceController.swift": [9223372036854775807, 0]

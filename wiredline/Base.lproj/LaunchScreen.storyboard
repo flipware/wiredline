@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10112" systemVersion="15E49a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10083"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Build Version:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vp-ri-Fjo">
+                                <rect key="frame" x="19" y="638" width="113" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZlT-rK-NKf">
+                                <rect key="frame" x="133" y="638" width="226" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="226" id="c2c-Xe-hn1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WiredClient.png" translatesAutoresizingMaskIntoConstraints="NO" id="WvO-x2-PPg">
+                                <rect key="frame" x="159" y="132" width="137" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HLImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="eqG-DW-RhQ">
+                                <rect key="frame" x="82" y="103" width="165" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZlT-rK-NKf" firstAttribute="top" secondItem="WvO-x2-PPg" secondAttribute="bottom" constant="378" id="0qv-Wo-fb6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZlT-rK-NKf" secondAttribute="trailing" constant="4" id="2ic-VZ-NWp"/>
+                            <constraint firstItem="ZlT-rK-NKf" firstAttribute="baseline" secondItem="6vp-ri-Fjo" secondAttribute="baseline" id="3vi-qL-Ffl"/>
+                            <constraint firstItem="eqG-DW-RhQ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="66" id="6cJ-Hx-mme"/>
+                            <constraint firstItem="ZlT-rK-NKf" firstAttribute="top" secondItem="eqG-DW-RhQ" secondAttribute="bottom" constant="407" id="9XH-XL-Jfw"/>
+                            <constraint firstItem="ZlT-rK-NKf" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="9lU-L6-MW1"/>
+                            <constraint firstItem="WvO-x2-PPg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="143" id="C8s-Ey-4yc"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="6vp-ri-Fjo" secondAttribute="bottom" constant="8" id="Liw-4h-4Ze"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eqG-DW-RhQ" secondAttribute="trailing" constant="112" id="MjY-bv-wCg"/>
+                            <constraint firstItem="ZlT-rK-NKf" firstAttribute="leading" secondItem="6vp-ri-Fjo" secondAttribute="trailing" constant="1" id="NsR-Xw-ul7"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="ZlT-rK-NKf" secondAttribute="bottom" constant="8" id="P9O-MS-rZ2"/>
+                            <constraint firstItem="ZlT-rK-NKf" firstAttribute="top" secondItem="WvO-x2-PPg" secondAttribute="bottom" constant="378" id="UTk-Lp-Icb"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="ZlT-rK-NKf" secondAttribute="bottom" constant="8" symbolic="YES" id="aYc-hY-ebM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WvO-x2-PPg" secondAttribute="trailing" constant="63" id="aho-A8-Txo"/>
+                            <constraint firstItem="WvO-x2-PPg" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="112" id="d7H-k1-S1q"/>
+                            <constraint firstItem="6vp-ri-Fjo" firstAttribute="top" secondItem="eqG-DW-RhQ" secondAttribute="bottom" constant="407" id="dCH-Ah-zcl"/>
+                            <constraint firstItem="ZlT-rK-NKf" firstAttribute="leading" secondItem="6vp-ri-Fjo" secondAttribute="trailing" constant="1" id="dDz-n2-9iE"/>
+                            <constraint firstItem="6vp-ri-Fjo" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="3" id="gQW-yt-5gC"/>
+                            <constraint firstItem="eqG-DW-RhQ" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="83" id="pJo-zR-vhX"/>
+                            <constraint firstItem="ZlT-rK-NKf" firstAttribute="leading" secondItem="6vp-ri-Fjo" secondAttribute="trailing" constant="1" id="uIC-qH-WfA"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2ic-VZ-NWp"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="374.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="HLImage.png" width="160" height="160"/>
+        <image name="WiredClient.png" width="128" height="128"/>
+    </resources>
+</document>
